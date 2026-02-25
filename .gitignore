@@ -1,0 +1,20 @@
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Python cache/test artifacts
+backend/__pycache__/
+backend/**/*.pyc
+.pytest_cache/
+
+# Runtime data/logs
+*.log
+.playwright-cli/
+
+# Uploaded material runtime data (keep directory skeleton)
+backend/data/uploaded_materials/*
+!backend/data/uploaded_materials/.gitkeep
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

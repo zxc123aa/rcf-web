@@ -1,0 +1,40 @@
+/* Theme CSS Variables */
+:root {
+  --rcf-primary: #00d2ff;
+  --rcf-bg: #1e1e2e;
+  --rcf-bg-secondary: #252540;
+  --rcf-plot-bg: #1e1e2e;
+  --rcf-text: #e0e0e0;
+  --rcf-text-secondary: #aaa;
+  --rcf-border: #333;
+}
+
+[data-theme="electric-blue"] {
+  --rcf-primary: #00d2ff;
+  --rcf-bg: #1e1e2e;
+  --rcf-bg-secondary: #252540;
+  --rcf-plot-bg: #1e1e2e;
+  --rcf-text: #e0e0e0;
+  --rcf-text-secondary: #aaa;
+  --rcf-border: #333;
+}
+
+[data-theme="matrix-green"] {
+  --rcf-primary: #00ff00;
+  --rcf-bg: #0a0a0a;
+  --rcf-bg-secondary: #111;
+  --rcf-plot-bg: #0a0a0a;
+  --rcf-text: #d0ffd0;
+  --rcf-text-secondary: #88aa88;
+  --rcf-border: #1a3a1a;
+}
+
+[data-theme="red-alert"] {
+  --rcf-primary: #ff4444;
+  --rcf-bg: #1a0a0a;
+  --rcf-bg-secondary: #221111;
+  --rcf-plot-bg: #1a0a0a;
+  --rcf-text: #ffd0d0;
+  --rcf-text-secondary: #aa8888;
+  --rcf-border: #3a1a1a;
+}
